@@ -1,0 +1,5 @@
+# # help Red Hat ignore false positives during its code scans
+[allowlist]
+paths = [
+    'tests/files/id_test',
+]
